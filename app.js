@@ -12,4 +12,4 @@ app.use(express.json())
 
 app.use("/api/articles", router)
 
-app.listen(3000, () => console.log("Server started on port "+port))
+app.listen(port, () => console.log("Server started on port "+port))
